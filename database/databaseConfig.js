@@ -191,8 +191,7 @@ const HistorySchema = new mongoose.Schema({
         type: String,
     },
     date: {
-        type: Date,
-        required: true
+        type: String,
     },
     amount: {
         type: String,

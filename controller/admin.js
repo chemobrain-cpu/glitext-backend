@@ -6,6 +6,16 @@ const Mailjet = require('node-mailjet')
 
 
 
+// Get the current date in the format YYYY-MM-DD
+
+
+
+History.find().then(data=>{
+   console.log(data)
+})
+
+
+
 module.exports.getUserFromJwt = async (req, res, next) => {
    try {
       let token = req.headers["header"]
